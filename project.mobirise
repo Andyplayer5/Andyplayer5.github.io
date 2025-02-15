@@ -53,7 +53,7 @@
     "favicon": false,
     "mbrsiteDomain": "4c2znb1bum",
     "usedWebp": false,
-    "robotsSwitcher": false,
+    "robotsSwitcher": true,
     "sitemapSwitcher": true,
     "sitemapSwitcherAuto": "on",
     "siteUrl": "https://4c2znb1bum.mobirisesite.com/",
@@ -77,7 +77,9 @@
       "underlineLink": false,
       "text": "By continuing you agree to our <a href='terms.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>."
     },
-    "publishChangesOnly": true
+    "publishChangesOnly": true,
+    "google-analytics": "<!-- Google tag (gtag.js) --> <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-J138BJ31TN\"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-J138BJ31TN'); </script>",
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n"
   },
   "pages": {
     "index.html": {
